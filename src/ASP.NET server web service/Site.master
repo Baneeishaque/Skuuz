@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form runat="server">
+            
+                <div class="title" style="background-color: #336699">
+                    <h1 align="center">
+                        <b>
+                            Skuuz!
+                        </b>
+                        <sub style="font-family: 'Times New Roman'; font-size: medium">
+                            <i><u>
+                                I'M With You...
+                            </u></i>
+                        </sub>
+                    </h1>
+                </div>
+            
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+    </form>
+</body>
+
+</html>

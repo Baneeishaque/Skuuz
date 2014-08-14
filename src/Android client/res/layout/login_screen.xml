@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:hint="@string/username"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+      
+        android:inputType="text"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/userName"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <CheckBox
+        android:id="@+id/checkregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="23dp"
+        android:text="@string/nuser" />
+
+    <Button
+        android:id="@+id/cancel_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkregister"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/checkregister"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cancel_login"
+        android:layout_alignBottom="@+id/cancel_login"
+        android:layout_alignLeft="@+id/checkregister"
+        android:layout_marginLeft="22dp"
+        android:text="@string/go" />
+
+</RelativeLayout>

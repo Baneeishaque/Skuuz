@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:text="@string/basic"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <EditText
+        android:id="@+id/txtgender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/gender"
+        android:inputType="text"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <EditText
+        android:id="@+id/txtphone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="text"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+        
+  
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:text="@string/essential"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/username"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <EditText
+        android:id="@+id/passwordAgain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orca_login_inputfield_background"
+        android:ems="10"
+        android:hint="@string/confirm"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="14.0sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up" />
+
+        <Button
+            android:id="@+id/cancel_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>
