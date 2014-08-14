@@ -5,7 +5,5 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/NetBeans 7.3.1/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/NetBeans 7.3.1/platform/modules/ext/swing-layout-1.0.4.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
